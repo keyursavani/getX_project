@@ -368,7 +368,6 @@
 /// Example 4
 
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 void main() {
   runApp(
@@ -605,7 +604,7 @@ class CircleListItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.symmetric(vertical: 14.h),
+      padding: EdgeInsets.symmetric(vertical: 14),
         decoration: const BoxDecoration(
           color: Colors.black,
         ),
